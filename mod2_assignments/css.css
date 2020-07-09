@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+	text-align:center;
+	size: 1.75em;
+}
+
+.row {
+	width:100%;
+}
+
+section {
+	border:2px solid black;
+	margin: 10px 10px 10px 10px;
+	background-color: #C0F2EC; 
+}
+
+section h2{
+	size:1.25em;
+	text-align: center;
+	border: 1px solid black;
+	padding:2.5px;
+	width:150px;
+	margin:0 0 5px 0;
+	float:right;
+}
+
+section p{
+	width:90%;
+	height:140px;
+	margin-left: 10px;
+	clear:both;
+}
+
+#heading1 {
+	background-color: #FF5733;
+}
+
+#heading2 {
+	background-color: #3543F1;
+}
+
+#heading3 {
+	background-color: #C03434;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4{
+		float: left;
+		width:33.33%;
+	}
+}
+
+@media (min-width :768px) and (max-width: 991px) {
+	.col-md-6{
+		float:left;
+		width:50%;
+	}
+	.col-md-12{
+		float: left;
+		width:100%;
+	}
+}
+
+@media (max-width :767px) {
+	.col-xs-12{
+		float:left;
+		width:100%;
+	}
+}
